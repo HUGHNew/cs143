@@ -1,5 +1,7 @@
 # cs143
 
+> for 64bit arch U should install lib32z1 for 32bit support
+
 `sudo docker pull git4docker/cs143:zh`
 
 or
@@ -18,7 +20,7 @@ build by yourself
 
 Dockerfile for cs143 based on ubuntu14:04
 
-to run this image:`sudo docker run --name cs143 -h cs143 -itd cs143:zh /bin/bash`
+to run this image:`sudo docker run --name cs143 -h cs143 -itd cs143:zh`
 
 get container ip : `sudo docker inspect -f "{{ .NetworkSettings.IPAddress }}" container_name`
 
