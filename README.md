@@ -1,8 +1,14 @@
 # cs143
 
-> for 64bit arch U should install lib32z1 for 32bit support
+> You can install lib32z1 to get 32bit support for x86_64
 
-`sudo docker pull git4docker/cs143:zh`
+`sudo docker pull git4docker/cs143:(zh|raw)`
+
+> `zh` for people who lives in China
+> 
+> `raw` for others
+> 
+> diff in apt source only
 
 or
 
